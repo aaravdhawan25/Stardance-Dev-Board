@@ -1,4 +1,4 @@
-# < ᗡ A > Stardance Dev Board
+Stardance Dev Board
 
 A custom 6-key macropad built from the ground up for streaming, programming, and productivity. Powered by the Seeed Studio XIAO and featuring brilliant per-key RGB lighting.
 
