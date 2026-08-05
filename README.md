@@ -1,39 +1,27 @@
 Stardance Dev Board
 
-A custom 6-key macropad built from the ground up for streaming, programming, and productivity. Powered by the Seeed Studio XIAO and featuring brilliant per-key RGB lighting.
+A keypad with 6 keys to help me with programming.
 
-## ✨ Features
+## Features
 
-* **Compact 6-Key Layout:** A perfectly symmetrical 3x2 grid, ideal for macro execution, app launching, or stream deck controls.
-* **Per-Key RGB:** Utilizes reverse-mounted SK6812MINI-E LEDs shining through custom PCB cutouts for vibrant, diffused lighting.
-* **XIAO Core:** Driven by the tiny but mighty Seeed Studio XIAO microcontroller (RP2040).
-* **Custom PCB:** Designed in KiCad with a clean 2-layer routed matrix and a custom developer silkscreen logo on the bottom layer.
-* **Open-Source Firmware:** Compatible with both QMK and KMK firmware ecosystems.
-* **3D Printable Case:** Includes STL files for a sleek, low-profile housing perfectly fitted for the board and USB-C port.
+* ** Has toggle keys to mute and unmute.
+* ** Combines a series of short cuts on a regular keyboard to achieve one goal end to end.
+* ** Github key
+* ** Android studio key
+* ** Mute Key
+* ** Discord Key
+* ** Commit And Push Key
 
-## 🛠️ Bill of Materials (BOM)
+## How It Was Built
+* ** Onshape for CAD
+*  ** KiCAD for PCB design
 
-To build your own Stardance Dev Board, you will need:
+## Full Assembly
+<img width="1137" height="900" alt="Screenshot 2026-06-21 at 1 22 34 PM" src="https://github.com/user-attachments/assets/d977b7ec-1ff4-4463-803a-25d8da5a94bd" />
 
-| Component | Quantity | Notes |
-| :--- | :---: | :--- |
-| **Seeed Studio XIAO** | 1 | RP2040 recommended for optimal KMK/QMK support. |
-| **Mechanical Switches** | 6 | Any Cherry MX-compatible switch (5-pin or 3-pin). |
-| **SK6812MINI-E LEDs** | 6 | Must be the "-E" (Reverse-Mount/Embedded) variant. |
-| **Keycaps** | 6 | Transparent or shine-through keycaps recommended for the LEDs. |
-| **Custom PCB** | 1 | Fabricated from the provided Gerber files. |
+## Python Code
+<img width="438" height="900" alt="Screenshot 2026-06-20 at 10 30 04 AM" src="https://github.com/user-attachments/assets/c24a38d3-c55c-4d61-b107-26c1bdac38f6" />
 
-## 🖨️ Hardware & PCB
+## PCB Design
+<img width="926" height="900" alt="Screenshot 2026-06-19 at 10 43 05 AM" src="https://github.com/user-attachments/assets/35ee09e0-7420-4fce-b80b-9ed0fa2b54bd" />
 
-The PCB was designed from scratch in KiCad. The matrix utilizes a top-layer (Red) and bottom-layer (Blue) routing strategy to avoid short circuits, with vias safely transitioning the signals. 
-
-* **`/Hardware`**: Contains the raw KiCad project files (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`).
-* **`/Gerbers`**: Contains the generated, production-ready `.zip` file. You can upload this directly to manufacturers like JLCPCB or PCBWay.
-* **`/Case`**: Contains the `.stl` files for 3D printing the enclosure.
-
-## 💻 Firmware Setup
-
-*(Add your specific QMK or KMK installation instructions, pinout definitions, and flashing guide here once your code is ready!)*
-
----
-*Designed and built by Aarav Dhawan.*
