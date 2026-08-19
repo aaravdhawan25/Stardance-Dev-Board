@@ -2,7 +2,8 @@
 
 This is the **AD Dev Pad**, a custom 6-key mechanical macropad I designed and built from scratch to make my coding workflow way faster. I was getting tired of clicking through menus just to mute Discord or push my code, so I made this board to handle all my repetitive tasks. 
 
-![3D Printed Case](cad.jpg)
+<img width="852" height="615" alt="cad" src="https://github.com/user-attachments/assets/1cfe9879-109c-42e7-9c82-ce4c78b9ec70" />
+
 
 ## Features
 I programmed this specifically for a Mac developer environment. It handles a lot more than just typing basic shortcuts!
@@ -14,7 +15,8 @@ I programmed this specifically for a Mac developer environment. It handles a lot
 ## Hardware and PCB
 I designed the board myself using KiCad. I wanted it to be simple but look really clean, so I added some custom silkscreen graphics on the front and back that mix my initials (AD) with a GitHub commit graph.
 
-![PCB](pcb.png)
+<img width="559" height="550" alt="pcb" src="https://github.com/user-attachments/assets/1cb1e0b9-0b96-4480-92fe-142a5bb47080" />
+
 
 ### Parts List
 * **Microcontroller:** Seeed Studio XIAO. It is super tiny but has exactly enough pins for this project.
@@ -22,7 +24,8 @@ I designed the board myself using KiCad. I wanted it to be simple but look reall
 * **Wiring:** I used a "direct-to-pin" setup. Every single switch gets its own dedicated pin on the XIAO and pulls straight to Ground. No complicated matrix or diodes needed!
 * **RGB LEDs:** 6 `SK6812MINI-E` reverse-mount LEDs. They are soldered onto the bottom of the board and shine *up* through cutouts in the PCB directly into the bottom of the switches.
 
-![Wiring Schematic](schematic.png)
+<img width="896" height="707" alt="schematic" src="https://github.com/user-attachments/assets/0f8abd7a-2cff-4dc3-ba84-738db7ec1a29" />
+
 
 ## Firmware
 I didn't want to mess with compiling complicated C code, so this board runs on **KMK** (CircuitPython). 
