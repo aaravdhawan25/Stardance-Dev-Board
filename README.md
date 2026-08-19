@@ -1,20 +1,20 @@
-#  Dev Pad 
+# AD Dev Pad
 
-Hey! This is the **AD Dev Pad**, a custom 6-key mechanical macropad I designed and built from scratch to make my coding and streaming workflow way faster. I was getting tired of clicking through menus just to mute Discord or push my code, so I made this board to handle all my repetitive tasks. 
+This is the **AD Dev Pad**, a custom 6-key mechanical macropad I designed and built from scratch to make my coding workflow way faster. I was getting tired of clicking through menus just to mute Discord or push my code, so I made this board to handle all my repetitive tasks. 
 
 ![3D Printed Case](cad.jpg)
 
-## Features & Macros
+## Features
 I programmed this specifically for a Mac developer environment. It handles a lot more than just typing basic shortcuts!
 
 * **Smart Discord Mute:** The top-left button hits `Cmd + Shift + M` to toggle mute. But the coolest part is that the Python code actually tracks the state, so when I'm muted, the entire board's underglow turns solid **RED** as a live warning. When I unmute, it goes back to my default "hacker green."
 * **Zero-Mouse GitHub:** I have dedicated keys that launch Mac Spotlight, type "github desktop", wait for it to load, and hit enter. Another key runs a full sequence to auto-commit, and another instantly pushes the code.
 * **Basic Utility:** Fast access to Copy, Paste, and Undo (`Cmd + Z`).
 
-## Hardware & PCB Design
+## Hardware and PCB
 I designed the board myself using KiCad. I wanted it to be simple but look really clean, so I added some custom silkscreen graphics on the front and back that mix my initials (AD) with a GitHub commit graph.
 
-![PCB Routing](pcb.png)
+![PCB](pcb.png)
 
 ### Parts List
 * **Microcontroller:** Seeed Studio XIAO. It is super tiny but has exactly enough pins for this project.
