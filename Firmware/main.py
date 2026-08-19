@@ -17,6 +17,7 @@ keyboard.matrix = KeysScanner(
     pull=True                  
 )
 
+
 rgb = RGB(
     pixel_pin=board.D10,       
     num_pixels=6,
